@@ -15,13 +15,13 @@
 $(call inherit-product, device/htc/m7vzw/full_m7vzw.mk)
 
 # Inherit crdroid full phone configuration
-$(call inherit-product, vendor/crdroid/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/crdroid/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Device naming
-PRODUCT_NAME := crdroid_m7vzw
+PRODUCT_NAME := cm_m7vzw
 
 # Override build props
 PRODUCT_BUILD_PROP_OVERRIDES += \
